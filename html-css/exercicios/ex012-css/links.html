@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /*remove o sublinhado do link*/
+            font-weight: bold ;
+        }
+
+        /*Exemplos pseudoclasses*/
+        a:visited {
+            color: darkmagenta; /* Troca a cor do link após clicar*/
+        }
+
+        a:hover { /*Muda o link ao passar o mouse*/
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active { /*Ao clicar*/
+            color: yellow;
+        }
+
+
+
+
+        /*Pseudo elementos*/
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Seletores personalidados</h1>
+    <p>
+        # id <br>
+        . class <br>
+        : pseudo-class <br>
+        :: pseudo-element <br>
+        > children
+
+    </p>
+
+
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="">Perfil</a></li>
+        <li><a href="https://drive.google.com/drive/u/0/folders/1rk8Pxdo-z5LKk0Ny3mgkq6LiGWRvN38Z">Drive da turma</a></li>
+        <li><a href="https://www.youtube.com/watch?v=NmsdfeTzdaA">Última aula</a></li>
+
+    </ul>
+    
+</body>
+</html>

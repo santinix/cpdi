@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: littlebird;
+    src: url(littlebird.ttf);
+    
+
+       
+}
+
+@font-face {
+    font-family: bromello;
+    src: url(BROMELLO.TTF);
+    
+}
+
+h1 {
+    font-family: 'bromello';
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    
+    font: italic bold 1.5em Arial;
+}
+
+p {
+    font-family: 'littlebird';
+    font-size: 1em;
+    text-align: justify;
+}
