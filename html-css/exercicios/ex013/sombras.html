@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: aquamarine;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(155, 152, 152);
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+
+        <h1>Meu site</h1>
+        
+        <nav> 
+            <a href="#">Home</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laborum, porro quos explicabo sit molestiae dignissimos, nisi dicta vitae excepturi itaque officia libero doloribus voluptate voluptatum ex similique repellendus sint?</p>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Titulo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta, voluptatem cum ipsa, error in deleniti sapiente voluptate illo beatae nostrum ut consequatur nemo asperiores dignissimos qui inventore fugit dolores?</p>
+
+                <aside>
+                    <p>Conteudo ref. artigo</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur recusandae odit unde ipsa inventore ex, at ipsam pariatur hic harum esse aliquid, labore voluptatibus magni facilis quis explicabo accusantium numquam!</p>
+
+
+    </footer>
+
+</body>
+</html>

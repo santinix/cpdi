@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'upheaval';
+    src: url(fonte/upheavtt.ttf);
+
+}
+
+
+html {
+    height: 100%;
+      
+}
+
+body {
+    
+    height: 100%;
+    margin: 0;
+    background-image: url(imagem/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    font-family: 'upheaval';
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+
+table {
+    
+    color: lightblue;
+    font-size: 40px;
+}
+
+.proj {
+    margin: 50px;
+}
+
+.proj:hover {
+    scale: 1.05;
+}
+
+main {
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    
+    
+}
+
+aside {
+    
+    height: 100%;
+    width: 100%;
+       
+}
+
+
+
+section {
+     
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#ling {
+    height: 50%;
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#fut {
+    
+    height: 50%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+footer {
+    
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    
+}
+
+#titulo {
+    font-size: 120px;
+    color: lightblue;
+}
+
+
+
+.h2 {
+    font-family: 'upheaval';
+    color: lightblue;
+    font-size: 45px;
+    }
+
+.conteudo {
+    color: rgb(157, 117, 185);
+    font-size: 20px;
+}
+
+.icones {
+    width: 5%;
+}
+
+.icones:hover {
+    scale: 1.2;
+}
+

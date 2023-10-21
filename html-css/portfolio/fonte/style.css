@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'upheaval';
+    src: url(upheavtt.ttf);
+
+}
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    height: 20%;
+    background-color: aqua;
+}
+
+main{
+    height: 40%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+aside{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+    background-image: url(beer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    height: 100%;
+    width: 70%;
+    background-color: cornflowerblue;
+}
+
+footer{
+    font-family: 'upheaval';
+    height: 40%;
+    background-color: cadetblue;
+}
+
+.btns{
+    height: 40px;
+    color: coral;
+    background-color: darkcyan;
+    border-radius: 12px 12px 0px 0px;
+    border: solid 2px black;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'upheaval';
+    font-size: 20px;
+
+
+}
+
+.btns:hover{
+    scale: 1.05;
+    transition: 0.5;
+
+}
+
+
+#btnAside {
+    color: black;
+    height: 35px;
+    border-radius: 12px;
+    border: solid 2px black;
+    text-align: center;
+    cursor: pointer;
+    opacity: 40%;
+    font-family: 'upheaval';
+    
+
+}
+#btnAside:hover{
+    scale: 1.05;
+    transition: 0.5;
+}
+
+#btnSection {
+    margin-top: 3px;
+    padding-bottom: 15px;
+}
+
+#inp{
+    height: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: thick 1px black;
+
+}
